@@ -1,12 +1,17 @@
 {
-"name": "node-ejs",
- "main": "server.js",
- "scripts": {
-   "start": "node server.js"
- },
- "dependencies": {
-   "ejs": "^2.4.1",
-   "express": "^4.13.4",
-   "stylus": "^0.54.2"
- }
+  "name": "node-ejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "stylus": "^0.54.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.3.1"
+  }
 }
